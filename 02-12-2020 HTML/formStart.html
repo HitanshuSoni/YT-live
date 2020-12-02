@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <p>username: <input type="text" name="username" /> </p>
+        <p>password: <input type="password" name="password" required="required" /> </p>
+        <p>Email: <input type="email" name="email" /></p>
+
+        <textarea maxlength="500" placeholder="Enter your comment"></textarea>
+
+        <p>Choose Your favorite color
+            <input type="radio" value="Red" name="color" /> Red
+            <input type="radio" value="Green" name="color" /> Green
+            <input type="radio" value="Blue" name="color" /> Blue
+        </p>
+
+        <p>Choose Your favorite color
+            <input type="checkbox" value="Red" name="color" /> Red
+            <input type="checkbox" value="Green" name="color" /> Green
+            <input type="checkbox" value="Blue" name="color" /> Blue
+        </p>
+
+        <p>Choose Your favorite color
+            <select name="color">
+                <option value="Red">Red</option>
+                <option value="Green">Green</option>
+                <option value="Blue">Blue</option>
+            </select>
+        </p>
+        <p>Upload A Video:</p>
+        <input type="file" name="fileIn" /><br>
+        <input type="submit" value="Upload" />
+        <p>Upload A Photo:</p>
+        <input type="image" name="fileIn" /><br>
+        <input type="submit" value="Upload" />
+        <p>Please Choose Date: <input type="date" /></p>
+        <p>Search:</p>
+        <input type="search" /><br>
+        <input type="submit" value="Search" />
+    </form>
+</body>
+
+</html>
