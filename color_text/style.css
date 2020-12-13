@@ -1,0 +1,31 @@
+body {
+    background-color: white;
+}
+
+#colo {
+    color: #000000;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#ele {
+    color: rgb(173, 107, 110);
+}
+
+#cc {
+    color: rgba(222, 98, 100, 0.5)
+}
+
+#a {
+    font: 20px Arial, sans-serif;
+}
+
+#b {
+    font: italic small-caps bold 30px/30px Georgia, serif;
+}
+
+#he {
+    text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+}
