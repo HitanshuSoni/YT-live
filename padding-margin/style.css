@@ -1,0 +1,50 @@
+/* padding*/
+
+.box {
+    border: 1px solid black;
+    /*
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 50px;*/
+    padding: 20px 30px 40px 50px;
+}
+
+
+/*margin*/
+
+.container {
+    display: inline;
+    float: left;
+}
+
+.area1,
+.area2,
+.area3,
+.area4 {
+    height: 100px;
+    width: 100px;
+    /*
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    */
+    margin: 3px 5px 7px 10px;
+}
+
+.area1 {
+    background-color: red;
+}
+
+.area2 {
+    background-color: orange;
+}
+
+.area3 {
+    background-color: green;
+}
+
+.area4 {
+    background-color: blue;
+}
